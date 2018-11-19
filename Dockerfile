@@ -6,5 +6,5 @@ RUN apk update --no-cache --purge
 RUN apk add wget curl make
 RUN curl -L https://cpanmin.us | perl - -M https://cpan.metacpan.org -n Mojolicious
 # Who still uses Perl?
-# This is some development part 2
+# This is some development
 
